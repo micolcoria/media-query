@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+.logo-container {
+    background-color: plum;
+}
+.logo-container img {
+    width: 35px;
+    height: 35px;
+}
+.search {
+    margin-bottom: 5px;
+}
+section {
+    text-align: center;
+    background-color: rebeccapurple;
+}
+p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.elemen1 {
+    display: inline-block;
+    width: 30%;
+}
+.elemen1 img {
+    margin-top: 15px;
+}
+@media (max-width: 800px) {
+    .search {
+        display: none;
+    }
+    .fa-shopping-cart {
+        display: none;
+    }
+    .elemen1 {
+        display: block;
+        margin: 0;
+        width: 300px;
+        height: 300px;
+    }
+    .elemen1 img {
+        width: 50%;
+    }
+    p {
+        display: inline-block;
+        width: 40%;
+        float: right;
+        margin-top: 50px;
+    }
+}
